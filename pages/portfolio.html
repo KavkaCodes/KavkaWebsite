@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - KavkaCodes</title>
+    <link rel="icon" type="image/x-icon" href="../assets/Favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="fullScreen">
+            <nav id="portfolioNavbar">
+                <a href="../index.html">
+                    <div class="logo">
+                        <img src="../assets/Kavka_Name_Logo.svg" alt="">
+                    </div>
+                </a>
+                
+    
+                <div class="navbar">
+                    <ul>
+                        <a href="../index.html">
+                            <li class="inactive navLinks ">About</li>
+                        </a>
+                        <a href="#">
+                            <li class="active navLinks">Portfolio</li>
+                        </a>
+                        <!-- <li class="inactive navLinks">Contact</li> -->
+                    </ul>
+                </div>
+            </nav>
+            <div class="portfolioIntro">
+                <div class="reqflexFiller"></div>
+                <div class="resizing">
+                    <h1 class="introText">Check out some of the projects I have worked on till now.</h1>
+                </div>
+                <a href="#freelanceProjects" class="addPadding">
+                    <div class="bottomLeft">
+                        <img src="../assets/icons/Arrow downward.svg" alt="Arrow Downward">
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="portfolio">
+            <div class="projects" id="freelanceProjects">
+                <h1 class="categoryTitle">Freelance</h1>
+                <div class="caraousel scroll-element js-scroll fade-in-bottom">
+                    <div class="project freelanceProject"></div>
+                    <div class="project freelanceProject"></div>
+                    <div class="project freelanceProject"></div>
+                </div>
+            </div>
+
+            <div class="projects" id="peronalProjects">
+                <h1 class="categoryTitle">Personal Projects</h1>
+                <div class="caraousel scroll-element js-scroll fade-in-bottom">
+                    <div class="project personalProject"></div>
+                    <div class="project personalProject"></div>
+                    <!-- <div class="project personalProject"></div> -->
+                </div>
+            </div>
+
+            <div class="projects" id="companyProjects">
+                <h1 class="categoryTitle">Work with Solutions</h1>
+                <div class="caraousel scroll-element js-scroll fade-in-bottom">
+                    <div class="project companyProject" id="testImage">
+
+                        <img src="../assets/Screenshot 2022-09-24 134942.jpg" alt="Portfolio" class="projectImage">
+
+                        <div class="projectInformation">
+                            <h1 class="projectTitle">SolPOS</h1>
+                            <p class="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis numquam fugiat non incidunt earum voluptatibus totam enim soluta. Rem,
+                                provident.</p>
+                        </div>
+                    </div>
+                    <div class="project companyProject">
+                        <img src="../assets/Screenshot 2022-09-24 134942.jpg" alt="Portfolio" class="projectImage">
+
+                        <div class="projectInformation">
+                            <h1 class="projectTitle">SolMIS</h1>
+                            <p class="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis numquam fugiat non incidunt earum voluptatibus totam enim soluta. Rem,
+                                provident.</p>
+                        </div>
+                    </div>
+                    <div class="project companyProject"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/scroll.js"></script>
+
+</html>
